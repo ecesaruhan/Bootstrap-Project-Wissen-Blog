@@ -14,16 +14,8 @@
     background-color: #085E7D;
 }
 
-.fa-house{
-    color: white;
-}
-
 .nav-link.active{
     opacity: 1;
-}
-
-.navbar-toggler{
-    color: white !important; 
 }
 
 .nav-link{
