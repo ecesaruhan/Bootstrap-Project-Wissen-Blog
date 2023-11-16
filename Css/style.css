@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Ortak Header */
+
 #header{
     background-color: #085E7D;
 }
@@ -20,12 +22,18 @@
     opacity: 1;
 }
 
+.navbar-toggler{
+    color: white !important; 
+}
+
 .nav-link{
     opacity: .5;
 }
 .nav-link:hover{
     opacity: .7;
 }
+
+/* Anasayfa Main */
 
 #hero-image{
     position: relative;
@@ -54,14 +62,8 @@
     margin-top: 120px;
 }
 
-#footer{
-    background-color: #085E7D;
-}
 
-#footer>p{
-    color: white;
-}
-
+/* Contact Sayfası Main */
 
 #contact-form-row {
     height: 550px;
@@ -96,9 +98,14 @@
     width: 100%;
 }
 
+/* Blog Sayfası Main */
+
 #blog-cards img{
     height: 100%;
 }
+
+
+/* Responsive Bölümü */
 
 @media(max-width: 993px){
 
@@ -132,3 +139,19 @@
     }
 }
 
+@media(max-width: 500px){
+    #hero{
+        height: 920px;
+    }
+}
+
+
+/*  Ortak Footer */
+
+#footer{
+    background-color: #085E7D;
+}
+
+#footer>p{
+    color: white;
+}
