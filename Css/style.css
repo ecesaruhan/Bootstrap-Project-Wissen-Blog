@@ -27,6 +27,10 @@
     opacity: .7;
 }
 
+#hero-image{
+    position: relative;
+}
+
 #hero>p{
     margin: 0 350px;
 }
@@ -34,7 +38,8 @@
     background-color: #085E7D;
     margin-top: -300px;
     height: 400px;
-    z-index: 1;
+    position: absolute;
+    top: 540px;
 }
 
 #download-details>p{
@@ -91,7 +96,19 @@
     width: 100%;
 }
 
+#blog-cards img{
+    height: 100%;
+}
+
 @media(max-width: 993px){
+
+    #blog-cards img{
+        width: 100%;
+    }
+
+    #blog-cards.card-body{
+        width: 100%;
+    }
 
     #contact-map-img {
         width: 100%;
@@ -107,3 +124,11 @@
         height: 1150px;
     }
 }
+
+
+@media(max-width: 730px){
+    #hero{
+        height: 900px;
+    }
+}
+
