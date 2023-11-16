@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+
     <div id="header" class="container-fluid">
         <nav class="navbar navbar-expand-md navbar fixed-top">
             <div class="container">
@@ -50,42 +52,45 @@
 
     <div id="contact-us" class="container my-5 ps-2">
         <h2 class="pt-4 pb-2 fw-normal">Contact Us</h2>
-        <div id="contact-form-row" class="row justify-content-evenly">
-            <div id="contact-form" class="col-md-6 col-12 rounded justify-content-center align-items-middle px-3">
+        <div id="contact-form-row" class="row row-col-md-12 row-col-6 justify-content-evenly">
+            <div id="contact-form"
+                class="col-md-6 col-12 mb-md-0 mb-2 rounded justify-content-center align-items-middle px-3">
 
                 <form id="contact-form-items" class="row g-0 mt-3">
 
-                    <input class="form-control form-control-lg fs-6 mb-3" type="text" placeholder="Please fill out the form"
-                        aria-label=".form-control-lg example">
+                    <input class="form-control form-control-lg fs-6 mb-3" type="text"
+                        placeholder="Please fill out the form" aria-label=".form-control-lg example">
 
-                    <div class="col-md-6">
+                    <div class="col-6 col-md-6 pe-2">
                         <label for="inputEmail" class="form-label text-white">Email</label>
-                        <input style="width: 250px;" type="email" class="form-control" id="inputEmail">
+                        <input type="email" class="form-control" id="inputEmail">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-6 col-md-6 ps-2">
                         <label for="inputPassword" class="form-label text-white">Name</label>
                         <input type="text" class="form-control" id="inputPassword">
                     </div>
 
                     <label style="height: 10px;" for="inputPhone" class="form-label text-white mb-3">Phone</label>
-                    <input class="form-control fs-6 bg-white" type="text"
-                        aria-label=".form-control example" id="inputPhone">
+                    <input class="form-control fs-6 bg-white" type="text" aria-label=".form-control example"
+                        id="inputPhone">
 
-                    <label style="height: 10px;" for="inputSubject" class="form-label text-white mt-3 mb-3">Subject</label>
-                    <input class="form-control fs-6 bg-white" type="text"
-                        aria-label=".form-control example" id="inputSubject">
+                    <label style="height: 10px;" for="inputSubject"
+                        class="form-label text-white mt-3 mb-3">Subject</label>
+                    <input class="form-control fs-6 bg-white" type="text" aria-label=".form-control example"
+                        id="inputSubject">
 
                     <label style="height: 10px;" for="inputMessage" class="form-label text-white my-3">Message</label>
                     <textarea class="form-control form-control-lg rounded" name="" id="inputMessage" cols="10"
                         rows="2"></textarea>
 
-                    <button style="height: 40px;" type="button" class="btn btn-outline-warning mt-2 mb-4">Send Message</button>
+                    <button style="height: 40px;" type="button" class="btn btn-outline-warning mt-2 mb-4">Send
+                        Message</button>
             </div>
 
-            <div id="contact-map" class="col-md-6 col-12 rounded border g-0">
-                <iframe
+            <div id="contact-map" class="col-md-6 col-12 rounded border g-0 img-thumbnail">
+                <iframe id="contact-map-img" class="img-fluid img-thumbnail rounded col-md-6 col-12"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.1382993896286!2d29.004241474960878!3d41.0441046172198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7a24975fe5d%3A0xa05d7aa13cfcaf89!2sBah%C3%A7e%C5%9Fehir%20%C3%9Cniversitesi%20Wissen%20Akademie!5e0!3m2!1str!2str!4v1700007011156!5m2!1str!2str"
-                    width="570" height="512" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="570" height="550" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
@@ -95,7 +100,6 @@
     <div id="footer" class="container-fluid">
         <p class="fs-6 p-3 m-0 text-center">BAU Wissen Akademie Öğrencileri tarafından tasarlanmıştır. @2022</p>
     </div>
-    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
